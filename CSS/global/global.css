@@ -29,3 +29,8 @@ img{
   max-width: 100%;
   display: block;
 }
+
+/* Esse efeito só pega nas imagens que possuem o atributo source que termine com .jpg */
+img[src$=".jpg"]{
+  border-radius: 4px;
+}
