@@ -16,6 +16,9 @@
 @import './seguros/vantagens.css';
 @import './seguros/perguntas.css';
 
+/* Aba bicicleta */
+@import './bicicleta/bicicleta.css';
+@import './bicicleta/seguro.css';
 
 /* Bicicletas */
 @import './bicicletas/bicicletas-lista.css';
