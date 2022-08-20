@@ -16,6 +16,7 @@
   padding: 40px 40px 80px 80px;
   align-self: end; 
   /* align self é pra ele alinhar ao maximo possível na parte inferior da div. */
+  background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 160px right;
 }
 
 .depoimento-conteudo p{
@@ -58,6 +59,10 @@
     padding: 40px 20px;
     justify-self: center;
   }
+}
 
-  
+@media(min-width: 1200px){
+  .depoimento img{
+    max-height: 520px;
+  }
 }

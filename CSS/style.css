@@ -21,6 +21,9 @@
 @import './contato/contato.css';
 @import './contato/lojas.css';
 
+/* Orçamento */
+@import './orcamento/orcamento.css';
+
 /* Aba bicicleta */
 @import './bicicleta/bicicleta.css';
 @import './bicicleta/seguro.css';
