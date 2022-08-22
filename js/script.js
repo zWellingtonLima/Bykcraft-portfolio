@@ -45,3 +45,19 @@ perguntas.forEach(eventosPerguntas);
 
 
 //Trocar as bikes na galeria na hora da compra
+const galeriaBicicletas = document.querySelectorAll('.bicicleta-imagens img');
+const galeriaContainer = document.querySelector('.bicicleta-imagens');
+
+function trocarBike(event){
+  const bicicleta = event.currentTarget;
+  const media = matchMedia('(min-width:950px)').matches;
+  if(media){
+    galeriaContainer.prepend(bicicleta); //O prepend realoca o elemento html.
+  }
+}
+
+function pegarAtributo(bike){
+  bike.addEventListener('click', trocarBike);
+}
+
+galeriaBicicletas.forEach(pegarAtributo); //Poderia ser feito com arrow function mas assim fica mais claro.
