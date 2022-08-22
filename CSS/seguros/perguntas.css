@@ -4,7 +4,7 @@
 
 .perguntas h2{
   margin-bottom: 60px;
-}
+text-align: center;}
 
 .perguntas dl > div{
   padding: 20px;
@@ -15,15 +15,19 @@
   background-color: #f7f7f7;
 }
 
-.perguntas dt{
+.perguntas button{
   display: grid;
   align-items: center;
   gap: 8px;
   cursor: pointer;
   grid-template-columns: auto 1fr auto;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
 }
 
-.perguntas dt::before{
+.perguntas button::before{
   content: "";
   display: inline-block;
   width: 12px;
@@ -31,12 +35,24 @@
   background-color: #ffbb00;
 }
 
-.perguntas dt::after{
+.perguntas button::after{
   content: "";
   display: inline-block;
   width: 14px;
   height: 6px;
   background-image: url('../../img/icones/seta-abrir.svg');
+}
+
+.perguntas button[aria-expanded="true"]::after{
+  transform: rotate(180deg);
+}
+
+.perguntas dd{
+  display: none;
+}
+
+.perguntas dd.ativa{
+  display: block;
 }
 
 .perguntas dd{
