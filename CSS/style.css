@@ -4,7 +4,6 @@
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
 @import './utilidades/componentes.css';
-@import './utilidades/animacao.css';
 @import './utilidades/formulario.css';
 
 /* Home */
@@ -31,4 +30,4 @@
 
 /* Bicicletas */
 @import './bicicletas/bicicletas-lista.css';
-@import './bicicletas/bicicletas.css'
+@import './bicicletas/bicicletas.css';
