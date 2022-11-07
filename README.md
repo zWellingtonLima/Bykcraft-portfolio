@@ -9,4 +9,4 @@ As Tecnologias usadas, majoritariamente, foram HTML e CSS. JavaScript foi usado 
 
 ## <p> ⬇️⬇️ Link da página ⬇️⬇️</p>
 
-<p>❌❌ <a>https://zwellingtonlima.github.io/bikcraft-portfolio/</a> </p>
+❌❌ <a>https://zwellingtonlima.github.io/Bykcraft-portfolio/</a>
